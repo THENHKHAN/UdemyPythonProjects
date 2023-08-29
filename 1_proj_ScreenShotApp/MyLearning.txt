@@ -1,0 +1,35 @@
+
+----- pip install pyautogui package to work with this app ----
+
+What?????
+Python pyautogui library is an automation library that allows mouse and keyboard control. Or we can say that it facilitates us to automate the movement of the mouse and keyboard to establish the interaction with the other application using the Python script. It provides many features, and a few are given below.
+
+--> We can move the mouse and click in the other applications' window.
+--> We can send the keystrokes to the other applications. For example - filling out the form, typing the search query to browser, etc.
+--> We can also **take snapshots and give an image**.
+--> It allows us to locate a window of the application, and move, maximize, minimize, resizes, or close it.
+--> Display alert and message boxes.
+
+Method: alert,confirm,prompt,password etc..
+1) size() : The size() method - It returns the size of the primary monitor.
+import pyautogui  
+screenWidth, screenHeight = pyautogui.size() # returns the monitor size  
+print("The Screen Width is: ", screenWidth)  
+print("The Screen Height is: ", screenHeight)   
+
+2) alert() Function :It is used to display message box with the some text message and OK button. Let's see the following example.
+
+Example -
+import pyautogui  
+pyautogui.alert(text='Hello I am a message box', title='JavaTpoint', button='OK')
+
+
+3)  screenshot() Function : The screenshot() function is used to take the screenshot of the screen at any instance
+ 
+
+------------------  tkinter ---------------
+--> How to make window 
+--> How chnages window bg color
+--> How to chnages window size of frame
+--> How set left,right,top,bottom buttons
+--> How to set Title
